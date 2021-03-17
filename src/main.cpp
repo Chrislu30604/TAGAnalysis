@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    TagParser *tag_parser = new TagParser(CSV_PATH);
+    TagParser *tag_parser = new TagParser(CSV_PATH, 2);
     cout << "[Total Amount of Data Tag]" << endl;
     cout << tag_parser->getAmountOfTag() << endl;
     cout << "----------------------------------" << endl;
